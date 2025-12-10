@@ -1,0 +1,12 @@
+{
+  "name": "wfmarketparser",
+  "version": "1.0.0",
+  "description": "Parse prices and etc from Warframe.market",
+  "license": "ISC",
+  "author": "Exaeri",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  }
+}

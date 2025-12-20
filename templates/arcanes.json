@@ -1,0 +1,10 @@
+{
+    "arcanes": {
+        "parse": true,
+        "parsePrices": false,
+        "tags": {
+            "include": ["arcane_enhancement"],
+            "exclude": ["peculiar"]
+        }
+    }
+}

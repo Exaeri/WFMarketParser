@@ -1,0 +1,10 @@
+{
+    "sentinels": {
+        "parse": true,
+        "parsePrices": true,
+        "tags": {
+            "include": ["sentinel", "set"],
+            "exclude": []
+        }
+    }
+}

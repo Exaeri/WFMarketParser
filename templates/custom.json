@@ -1,0 +1,64 @@
+{
+    "warframes": {
+        "parse": true,
+        "parsePrices": true,
+        "tags": {
+            "include": ["warframe", "set"],
+            "exclude": []
+        }
+    },
+
+    "syndicateWeapons": {
+        "parse": true,
+        "parsePrices": true,
+        "tags": {
+            "include": ["syndicate", "weapon"],
+            "exclude": []
+        }
+    },
+
+    "etcWeapons": {
+        "parse": true,
+        "parsePrices": true,
+        "tags": {
+            "include": ["weapon"],
+            "exclude": ["component", "prime", "syndicate", "blueprint", "necramech"]
+        }
+    },
+
+    "primedWeapons": {
+        "parse": true,
+        "parsePrices": true,
+        "tags": {
+            "include": ["weapon", "prime", "set"],
+            "exclude": []
+        }
+    },
+
+    "arcanes": {
+        "parse": true,
+        "parsePrices": false,
+        "tags": {
+            "include": ["arcane_enhancement"],
+            "exclude": ["peculiar"]
+        }
+    },
+
+    "sentinels": {
+        "parse": true,
+        "parsePrices": true,
+        "tags": {
+            "include": ["sentinel", "set"],
+            "exclude": []
+        }
+    },
+
+    "lens": {
+        "parse": true,
+        "parsePrices": true,
+        "tags": {
+            "include": ["lens"],
+            "exclude": []
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "warframes": {
+        "parse": true,
+        "parsePrices": true,
+        "tags": {
+            "include": ["warframe", "set"],
+            "exclude": []
+        }
+    }
+}

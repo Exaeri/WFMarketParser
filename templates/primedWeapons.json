@@ -1,0 +1,10 @@
+{
+    "primedWeapons": {
+        "parse": true,
+        "parsePrices": false,
+        "tags": {
+            "include": ["weapon", "prime", "set"],
+            "exclude": []
+        }
+    }
+}

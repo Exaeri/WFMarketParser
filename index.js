@@ -1,9 +1,11 @@
 import WFMParser from "./Parser/WFMParser.js";
 
 ////////////////Parsing from templates file/////////////////
-import { readJSON } from "./Parser/Utils.js";
+const templateFileName = 'custom'; //Change file name here
 
-const custom = await readJSON('./templates/custom.json');
+import { readJSON } from "./Parser/Utils.js";
+const templateFilePath = `./templates/${templateFileName}.json`;
+const custom = await readJSON(templateFilePath);
 WFMParser.parseTemplates(custom, true);
 ///////////////////////////////////////////////////////////
 

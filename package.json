@@ -1,6 +1,6 @@
 {
   "name": "wfmarketparser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Parse prices and etc from Warframe.market",
   "license": "ISC",
   "author": "Exaeri",

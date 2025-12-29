@@ -1,6 +1,8 @@
 📦 WFMarketParser — Get actual item's lists and prices from Warframe.Market
 
-WFMarketParser is a Node.js tool for parsing data from the Warframe Market API. The project is written in ESM and is designed for automated parsing.
+WFMarketParser is a Node.js tool for parsing data from the Warframe Market API. The project is written in ESM and is designed for automated parsing.<br>
+
+<img width="976" height="439" alt="image" src="https://github.com/user-attachments/assets/2fea3e0c-3936-4af6-9bea-0c1065987f35" />
 
 <h3>🚀Features</h3>
 ✔ Template-based parsing system<br>

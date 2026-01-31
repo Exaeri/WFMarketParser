@@ -14,14 +14,16 @@ WFMarketParser is a Node.js tool for parsing data from the Warframe Market API. 
 
 <h3>Requirements</h3>
 Node.js 18+<br>
+Git (required for submodules)<br>
 Internet access (Warframe Market API)
 
 <h3>📦Installation</h3>
-<code>git clone https://github.com/Exaeri/WFMarketParser.git</code><br>
-Install WFMarketApi submodule:<br>
+1. <code>git clone --recursive https://github.com/Exaeri/WFMarketParser.git</code><br><br>
+2. Run installer (install.bat) OR do the installation manually by steps 2.1-2.2<br>
+2.1 Install WFMarketApi submodule:<br>
 <code>cd .\WFMarketParser\</code><br>
 <code>git submodule update --init --recursive</code><br>
-Install WFMarketApi dependencies:<br>
+2.2 Install WFMarketApi dependencies:<br>
 <code>cd .\WFMarketApiJS\</code><br>
 <code>npm install</code><br>
 
@@ -39,7 +41,11 @@ WFMarketParser/<br>
  └─ index.js<br>
 
 <h3>Usage</h3>
-There are 3 ways to parse:
+One of the following methods:<br>
+Run parse.bat<br>
+<code>node index.js</code><br>
+<code>npm start</code><br><br>
+There are 3 ways to set parse list:
 <ul>
   <li>Using/editing template file, i prepared some of them</li>
   <li>Write your own template in the code</li>

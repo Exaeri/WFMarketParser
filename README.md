@@ -7,8 +7,8 @@ WFMarketParser is a Node.js tool for parsing data from the Warframe Market API. 
 <h3>🚀Features</h3>
 ✔ Template-based parsing system<br>
 ✔ Fetch all tradable items from Warframe Market<br>
-✔  Filter items by tags (include / exclude)<br>
-✔  Calculate average prices<br>
+✔ Filter items by tags (include / exclude)<br>
+✔ Calculate average prices<br>
 ✔ Sort by prices<br>
 ✔ Export result to JSON files<br>
 
